@@ -1,0 +1,112 @@
+.component2{
+    /* width: 780px; */
+    width: 58%;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', bold;
+    background: var(--background-component-default);
+    box-shadow: 10px 10px 10px 4px var(--shadow-component);
+    border-radius: 30px;
+    padding: 15px 8px 24px 24px ;
+}
+.leftBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info h4{
+    font-size:20px;
+    font-weight: 800;
+}
+.info p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    fill: var(--color-component-default)
+}
+.temperature{
+    margin-bottom: 25px;
+}
+.temperature h2{
+    font-size: 82px;
+    background: var(--gradient-text-default);
+    color: transparent ;
+    background-clip: text;
+    margin-bottom: -25px;
+}
+.temperature p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.temperature p span{
+    font-size: 20px;
+}
+.weatherImg{
+    width: 220px;
+}
+.weatherText{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+@media (max-width:1600px){
+    .component2{
+        height: 220px;
+    }
+    .info{
+        gap: 10px;
+    }
+    .info h4{
+        font-size:16px;
+        font-weight: 600;
+    }
+    .info p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+        fill: var(--color-component-default)
+    }
+    .temperature{
+        margin-bottom: 10px;
+    }
+    .temperature h2{
+        font-size: 64px;
+        margin-bottom: -18px;
+    }
+    .temperature p{
+        gap: 4px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .temperature p span{
+        font-size: 16px;
+    }
+    .weatherImg{
+        width: 150px;
+    }
+    .weatherText{
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+
+
+

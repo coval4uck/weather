@@ -1,0 +1,48 @@
+.rightBlock {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.rightBlock .icon{
+    width: 60px;
+    height: 50px;
+    stroke: var(--color-component-default);
+    fill: var(--color-component-default);
+}
+.rightBlock h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+.rightBlock p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media (max-width:1600px){
+    .rightBlock {
+        gap: 20px 10px;
+    }
+    .item{
+        gap: 4px;
+    }
+    .rightBlock .icon{
+        width: 40px;
+        height: 35px;
+    }
+    .rightBlock h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .rightBlock p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,26 @@
+.component4{
+    background: var(--background-component-default);
+    box-shadow: 10px 10px 10px 4px var(--shadow-component);
+    border-radius: 30px;
+    /* width: 870px; */
+    width: 65%;
+    height: 366px;
+    padding: 16px 80px;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 19px;
+    font-family: 'Poppins', bold;
+}
+
+@media (max-width:1600px){
+    .component4{
+        height: 260px;
+    }
+    .title{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
+

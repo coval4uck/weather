@@ -1,0 +1,21 @@
+.app{
+    background: var(--background-body-default);
+    min-width: 900px;
+    height: 100%;
+    padding: 63px 80px;    
+}
+.conteiner{
+    max-width: 1346px;
+    margin: 0 auto;
+}
+
+
+@media( max-width:1600px){
+    .app{
+        padding: 30px;
+    }
+.conteiner{
+    max-width: 900px;
+}
+
+}

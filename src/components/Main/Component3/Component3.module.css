@@ -1,0 +1,61 @@
+.component3{    
+    background: var(--background-component-default);
+    box-shadow: 10px 10px 10px 4px var(--shadow-component);
+    border-radius: 30px;
+    /* width: 414px; */
+    width: 31%;
+    height: 366px;
+    padding: 18px 14px 2px 30px;
+    font-family: 'Poppins', bold;
+    font-weight: 700;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+}
+.day_lists{
+    list-style: none;
+}
+
+.day_link{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+.temperature{
+    font-size: 24px;
+    
+}
+.date{
+    font-size: 20px;
+}
+
+@media (max-width:1600px){
+    .component3{    
+        width: 31%;
+        height: 260px;
+        padding: 18px 14px 2px 30px;
+        font-weight: 500;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .temperature{
+        font-size: 18px;
+        
+    }
+    .date{
+        font-size: 16px;
+    }
+}

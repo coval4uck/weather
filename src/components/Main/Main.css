@@ -1,0 +1,16 @@
+.main{
+    gap: 50px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--color-component-default);
+}
+
+@media (max-width:1600px){
+    .main{
+        gap: 30px;
+    }
+}
+
+

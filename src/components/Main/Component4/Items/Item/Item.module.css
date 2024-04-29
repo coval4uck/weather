@@ -1,0 +1,51 @@
+.item{
+    width: 130px;
+    height: 270px;
+    padding: 13px 25px 18px;
+    background: var(--background-item-default);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', bold;
+    font-weight: 700;
+}
+.time{
+    font-size: 24px; 
+}
+.temperature{
+    font-size: 20px;
+}
+.imgSpeed{
+    width: 55px;
+}
+.speed{
+    font-size: 20px;
+}
+
+@media (max-width:1600px){
+    .item{
+        width: 70px;
+        height: 180px;
+        padding: 13px 25px 18px;
+        font-weight: 500;
+        border-radius: 25px;
+    }
+    .time{
+        font-size: 18px; 
+    }
+    .temperature{
+        font-size: 16px;
+    }
+    .imgWeather{
+        width: 40px;
+        height: 40px;
+    }
+    .imgSpeed{
+        width: 30px;
+    }
+    .speed{
+        font-size: 16px;
+    }
+}

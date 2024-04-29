@@ -1,0 +1,5 @@
+.component{
+    background: var(--background-component-default);
+    box-shadow: 10px 10px 10px 4px var(--shadow-component);
+    border-radius: 30px;
+}

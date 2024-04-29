@@ -1,0 +1,42 @@
+:root{
+    --shadow-component:rgba(0, 0, 0, 0.5);
+    --color-black: rgba(0, 0, 0, 1);
+    --background-btn-green: rgba(76, 187, 23, 1);
+    --color-btn-light: rgba(255, 255, 255, 0.8);
+
+    --background-body-dark: linear-gradient(135deg,rgba(79, 79, 79, 1) 40%,rgba(158, 158, 158, 0)) 60% ;
+    --background-body-light: linear-gradient(135deg,rgba(255, 255, 255, 1) ,rgba(70, 97, 115, 0.5) );
+    --background-body-default: var(--background-body-light);
+
+    --background-input-dark: rgba(68, 68, 68, 1)   ;
+    --background-input-light: rgba(217, 217, 217, 1)   ;
+    --background-input-default:  var(--background-input-light:)  ;
+
+    --color-input-dark: rgba(255, 255, 255, 0.6)   ;
+    --color-input-light:  rgba(41, 41, 41, 1)  ;
+    --color-input-default:  var(--color-input-light:)  ;
+
+    --color-toggle-dark:rgba(255, 255, 255, 1);
+    --color-toggle-light:   rgba(0, 0, 0, 1);
+    --color-toggle-default: var(--color-toggle-light);
+
+    --background-component-dark: rgba(68, 68, 68, 1);
+    --background-component-light: rgba(217, 217, 217, 1);
+    --background-component-default: var(--background-component-light);
+
+    --color-component-dark: rgba(255, 255, 255, 1);
+    --color-component-light: rgba(41, 41, 41, 1);
+    --color-component-default: var(var(--color-component-light));
+
+    --background-item-dark: rgba(55, 54, 54, 1);
+    --background-item-light: linear-gradient(135deg,rgba(248, 133, 8, 1),rgba(246, 250, 217, 0));
+    --background-item-default: var(--background-item-light);
+
+    --gradient-text-dark:linear-gradient(45deg,rgba(217, 217, 217, 1),rgba(41, 41, 41, 1));
+    --gradient-text-light:linear-gradient(45deg,rgba(41, 41, 41, 1),rgba(217, 217, 217, 1));
+    --gradient-text-default:linear-gradient(45deg,rgba(41, 41, 41, 1),rgba(217, 217, 217, 1));
+
+    
+    
+    
+}
